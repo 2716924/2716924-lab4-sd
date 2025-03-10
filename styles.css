@@ -1,0 +1,149 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Label Styling */
+label {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus Effect for Input */
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    margin-top: 15px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Country Info Section Styling */
+#country-info {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for country info */
+#country-info:hover {
+    transform: translateY(-5px);
+}
+
+/* Country Info Paragraph Styling */
+#country-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Flag Image Styling */
+#country-info img {
+    margin-top: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Bordering Countries Section Styling */
+#bordering-countries {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.border-country {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for bordering countries */
+.border-country:hover {
+    transform: translateY(-5px);
+}
+
+/* Border Country Info Styling */
+.border-country p {
+    font-size: 1.1em;
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Flag Image in Bordering Country Section */
+.border-country img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Handling no results message */
+#bordering-countries p {
+    font-size: 1.2em;
+    color: #ff5722;
+    text-align: center;
+    margin-top: 20px;
+}
